@@ -1,26 +1,290 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   Brand tokens: "Old School Soul, Future Ink"
+   Palette is sampled from the logo: oxblood banner, patina flourishes, ember bevel.
+   ========================================================================== */
+@theme {
+  --color-ink: #0e0b0a;
+  --color-ink-2: #171210;
+  --color-bone: #f2ece3;
+  --color-oxblood: #4a0000;
+  --color-oxblood-2: #2a0302;
+  --color-patina: #5b948e;
+  --color-ember: #b43606;
+
+  --font-display: var(--font-big-shoulders), "Arial Narrow", sans-serif;
+  --font-stencil: var(--font-big-shoulders-stencil), var(--font-big-shoulders), sans-serif;
+  --font-sans: var(--font-hanken), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* Three layouts: mobile ≤767, tablet 768–1279, desktop ≥1280. */
+  --breakpoint-md: 48rem;
+  --breakpoint-xl: 80rem;
+
+  --ease-ink: cubic-bezier(0.16, 1, 0.3, 1); /* ≈ expo.out */
+}
+
+/* ---------- Base ---------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --nav-h: 4.25rem;
+  --action-bar-h: 0px;
+  --safe-b: env(safe-area-inset-bottom, 0px);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@media (max-width: 767px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --nav-h: 3.75rem;
+    --action-bar-h: calc(4rem + var(--safe-b));
   }
 }
 
+html {
+  background: var(--color-ink);
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: var(--nav-h);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-ink);
+  color: var(--color-bone);
+  font-family: var(--font-sans);
+  font-size: 1rem; /* never below 16px */
+  line-height: 1.6;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  padding-bottom: var(--action-bar-h);
+}
+
+::selection {
+  background: var(--color-ember);
+  color: var(--color-bone);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-patina);
+  outline-offset: 3px;
+}
+
+/* Lenis recommended styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* ---------- Grain: fixed SVG noise at very low opacity (static, so zero runtime cost) ---------- */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .9 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ---------- Typography helpers ---------- */
+@utility t-mega {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.84;
+  letter-spacing: -0.01em;
+  font-size: clamp(3.4rem, 15.5vw, 13.5rem);
+}
+
+@utility t-huge {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.86;
+  font-size: clamp(2.9rem, 11vw, 10rem);
+}
+
+@utility t-xl {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.9;
+  font-size: clamp(2.25rem, 7vw, 6rem);
+}
+
+@utility t-lg {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.95;
+  font-size: clamp(1.75rem, 4.2vw, 3.25rem);
+}
+
+@utility t-lead {
+  font-size: clamp(1.125rem, 1.6vw, 1.375rem);
+  line-height: 1.5;
+}
+
+/* Mono "stencil" label, e.g. EST. 1994 / 01 */
+@utility label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* Hollow outline type: the "stencil" state of a headline */
+@utility text-outline {
+  /* Fill is cleared via text-fill-color so `currentColor` (the stroke) keeps the text color. */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px currentColor;
+  @media (max-width: 767px) {
+    -webkit-text-stroke-width: 1px;
+  }
+}
+
+/* Each split line gets its own mask so lines can rise out of it */
+.split-line-mask {
+  overflow: clip;
+  padding-bottom: 0.06em;
+  margin-bottom: -0.06em;
+}
+
+/* ---------- Gallery image treatment ----------
+   Old, low-res photos read best as a consistent duotone (ink → bone, tinted oxblood).
+   Full color returns on hover (fine pointers) and always in the lightbox. */
+@layer components {
+.duo {
+  position: relative;
+  isolation: isolate;
+  background: var(--color-ink-2);
+}
+.duo img {
+  filter: grayscale(1) contrast(1.18) brightness(0.88);
+  transition: filter 0.7s var(--ease-ink);
+}
+.duo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: #8a1208; /* oxblood, lifted so the hue survives the blend */
+  mix-blend-mode: color;
+  opacity: 0.32;
+  transition: opacity 0.7s var(--ease-ink);
+}
+@media (hover: hover) and (pointer: fine) {
+  .duo:hover img,
+  .group:hover .duo img,
+  .group:focus-visible .duo img {
+    filter: none;
+  }
+  .duo:hover::after,
+  .group:hover .duo::after,
+  .group:focus-visible .duo::after {
+    opacity: 0;
+  }
+}
+.duo.is-color img {
+  filter: none;
+}
+.duo.is-color::after {
+  opacity: 0;
+}
+}
+
+/* ---------- Animated link underline ---------- */
+@utility link-line {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.6s var(--ease-ink);
+  padding-bottom: 2px;
+  &:hover,
+  &:focus-visible {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+}
+
+/* ---------- Footer marquee (pure CSS, compositor-only) ---------- */
+@keyframes marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.marquee-track {
+  animation: marquee 60s linear infinite;
+}
+
+/* ---------- Preloader gating (set before paint by the inline script in layout.tsx) ---------- */
+html[data-intro="skip"] .preloader {
+  display: none;
+}
+/* Repeat visits (no preloader): hero pieces wait hidden for their entrance.
+   First visits: the hero paints normally underneath the preloader, so LCP isn't delayed. */
+html[data-motion="ok"][data-intro="skip"] [data-hero-hide] {
+  visibility: hidden;
+}
+
+/* ---------- Reduced motion: everything rests in its final, "healed" state ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* Hover-only styles: real mouse/trackpad only, never on touch. */
+@custom-variant can-hover (@media (hover: hover) and (pointer: fine));
+
+/* ---------- Flash wall: square cells sized from the container width, features span 2×2 ---------- */
+.flash-wall-wrap {
+  container-type: inline-size;
+}
+.flash-wall {
+  --cols: 2;
+  --gap: 0.5rem;
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  grid-auto-rows: calc((100cqw - (var(--cols) - 1) * var(--gap)) / var(--cols));
+  grid-auto-flow: dense;
+}
+@media (min-width: 768px) {
+  .flash-wall {
+    --cols: 4;
+    --gap: 0.625rem;
+  }
+}
+@media (min-width: 1280px) {
+  .flash-wall {
+    --cols: 6;
+    --gap: 0.75rem;
+  }
+}
+
+/* Hidden scrollbar for the touch carousel (it remains scrollable and keyboard-accessible). */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

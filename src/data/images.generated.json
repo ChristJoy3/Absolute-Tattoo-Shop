@@ -1,0 +1,591 @@
+{
+  "tattoo-01": {
+    "src": "/images/tattoos/tattoo-01.jpg",
+    "dir": "tattoos",
+    "width": 480,
+    "height": 640,
+    "widths": [
+      480
+    ]
+  },
+  "tattoo-02": {
+    "src": "/images/tattoos/tattoo-02.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-03": {
+    "src": "/images/tattoos/tattoo-03.jpg",
+    "dir": "tattoos",
+    "width": 655,
+    "height": 960,
+    "widths": [
+      480,
+      655
+    ]
+  },
+  "tattoo-04": {
+    "src": "/images/tattoos/tattoo-04.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-05": {
+    "src": "/images/tattoos/tattoo-05.jpg",
+    "dir": "tattoos",
+    "width": 581,
+    "height": 816,
+    "widths": [
+      480,
+      581
+    ]
+  },
+  "tattoo-06": {
+    "src": "/images/tattoos/tattoo-06.jpg",
+    "dir": "tattoos",
+    "width": 477,
+    "height": 540,
+    "widths": [
+      477
+    ]
+  },
+  "tattoo-07": {
+    "src": "/images/tattoos/tattoo-07.jpg",
+    "dir": "tattoos",
+    "width": 2816,
+    "height": 2112,
+    "widths": [
+      480,
+      720,
+      960,
+      1600
+    ]
+  },
+  "tattoo-08": {
+    "src": "/images/tattoos/tattoo-08.jpg",
+    "dir": "tattoos",
+    "width": 1200,
+    "height": 1600,
+    "widths": [
+      480,
+      720,
+      960,
+      1200
+    ]
+  },
+  "tattoo-09": {
+    "src": "/images/tattoos/tattoo-09.jpg",
+    "dir": "tattoos",
+    "width": 300,
+    "height": 400,
+    "widths": [
+      300
+    ]
+  },
+  "tattoo-10": {
+    "src": "/images/tattoos/tattoo-10.jpg",
+    "dir": "tattoos",
+    "width": 300,
+    "height": 400,
+    "widths": [
+      300
+    ]
+  },
+  "tattoo-11": {
+    "src": "/images/tattoos/tattoo-11.jpg",
+    "dir": "tattoos",
+    "width": 400,
+    "height": 533,
+    "widths": [
+      400
+    ]
+  },
+  "tattoo-12": {
+    "src": "/images/tattoos/tattoo-12.jpg",
+    "dir": "tattoos",
+    "width": 400,
+    "height": 533,
+    "widths": [
+      400
+    ]
+  },
+  "tattoo-13": {
+    "src": "/images/tattoos/tattoo-13.jpg",
+    "dir": "tattoos",
+    "width": 300,
+    "height": 400,
+    "widths": [
+      300
+    ]
+  },
+  "tattoo-14": {
+    "src": "/images/tattoos/tattoo-14.jpg",
+    "dir": "tattoos",
+    "width": 193,
+    "height": 421,
+    "widths": [
+      193
+    ]
+  },
+  "tattoo-15": {
+    "src": "/images/tattoos/tattoo-15.jpg",
+    "dir": "tattoos",
+    "width": 145,
+    "height": 193,
+    "widths": [
+      145
+    ]
+  },
+  "tattoo-16": {
+    "src": "/images/tattoos/tattoo-16.jpg",
+    "dir": "tattoos",
+    "width": 717,
+    "height": 538,
+    "widths": [
+      480,
+      717
+    ]
+  },
+  "tattoo-17": {
+    "src": "/images/tattoos/tattoo-17.jpg",
+    "dir": "tattoos",
+    "width": 376,
+    "height": 640,
+    "widths": [
+      376
+    ]
+  },
+  "tattoo-18": {
+    "src": "/images/tattoos/tattoo-18.jpg",
+    "dir": "tattoos",
+    "width": 348,
+    "height": 640,
+    "widths": [
+      348
+    ]
+  },
+  "tattoo-19": {
+    "src": "/images/tattoos/tattoo-19.jpg",
+    "dir": "tattoos",
+    "width": 960,
+    "height": 960,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "tattoo-20": {
+    "src": "/images/tattoos/tattoo-20.jpg",
+    "dir": "tattoos",
+    "width": 960,
+    "height": 959,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "tattoo-21": {
+    "src": "/images/tattoos/tattoo-21.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-22": {
+    "src": "/images/tattoos/tattoo-22.jpg",
+    "dir": "tattoos",
+    "width": 960,
+    "height": 720,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "tattoo-23": {
+    "src": "/images/tattoos/tattoo-23.jpg",
+    "dir": "tattoos",
+    "width": 960,
+    "height": 960,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "tattoo-24": {
+    "src": "/images/tattoos/tattoo-24.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-25": {
+    "src": "/images/tattoos/tattoo-25.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-26": {
+    "src": "/images/tattoos/tattoo-26.jpg",
+    "dir": "tattoos",
+    "width": 811,
+    "height": 960,
+    "widths": [
+      480,
+      720,
+      811
+    ]
+  },
+  "tattoo-27": {
+    "src": "/images/tattoos/tattoo-27.jpg",
+    "dir": "tattoos",
+    "width": 720,
+    "height": 960,
+    "widths": [
+      480,
+      720
+    ]
+  },
+  "tattoo-28": {
+    "src": "/images/tattoos/tattoo-28.jpg",
+    "dir": "tattoos",
+    "width": 640,
+    "height": 478,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "tattoo-29": {
+    "src": "/images/tattoos/tattoo-29.jpg",
+    "dir": "tattoos",
+    "width": 640,
+    "height": 480,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "tattoo-30": {
+    "src": "/images/tattoos/tattoo-30.jpg",
+    "dir": "tattoos",
+    "width": 1280,
+    "height": 1280,
+    "widths": [
+      480,
+      720,
+      960,
+      1280
+    ]
+  },
+  "tattoo-31": {
+    "src": "/images/tattoos/tattoo-31.jpg",
+    "dir": "tattoos",
+    "width": 1280,
+    "height": 1280,
+    "widths": [
+      480,
+      720,
+      960,
+      1280
+    ]
+  },
+  "tattoo-32": {
+    "src": "/images/tattoos/tattoo-32.jpg",
+    "dir": "tattoos",
+    "width": 296,
+    "height": 394,
+    "widths": [
+      296
+    ]
+  },
+  "tattoo-33": {
+    "src": "/images/tattoos/tattoo-33.jpg",
+    "dir": "tattoos",
+    "width": 256,
+    "height": 421,
+    "widths": [
+      256
+    ]
+  },
+  "tattoo-34": {
+    "src": "/images/tattoos/tattoo-34.jpg",
+    "dir": "tattoos",
+    "width": 1280,
+    "height": 1280,
+    "widths": [
+      480,
+      720,
+      960,
+      1280
+    ]
+  },
+  "tattoo-35": {
+    "src": "/images/tattoos/tattoo-35.jpg",
+    "dir": "tattoos",
+    "width": 450,
+    "height": 414,
+    "widths": [
+      450
+    ]
+  },
+  "tattoo-36": {
+    "src": "/images/tattoos/tattoo-36.jpg",
+    "dir": "tattoos",
+    "width": 267,
+    "height": 607,
+    "widths": [
+      267
+    ]
+  },
+  "tattoo-37": {
+    "src": "/images/tattoos/tattoo-37.jpg",
+    "dir": "tattoos",
+    "width": 1545,
+    "height": 2176,
+    "widths": [
+      480,
+      720,
+      960,
+      1545
+    ]
+  },
+  "tattoo-38": {
+    "src": "/images/tattoos/tattoo-38.jpg",
+    "dir": "tattoos",
+    "width": 640,
+    "height": 640,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "tattoo-39": {
+    "src": "/images/tattoos/tattoo-39.jpg",
+    "dir": "tattoos",
+    "width": 240,
+    "height": 320,
+    "widths": [
+      240
+    ]
+  },
+  "tattoo-40": {
+    "src": "/images/tattoos/tattoo-40.jpg",
+    "dir": "tattoos",
+    "width": 240,
+    "height": 320,
+    "widths": [
+      240
+    ]
+  },
+  "tattoo-41": {
+    "src": "/images/tattoos/tattoo-41.jpg",
+    "dir": "tattoos",
+    "width": 320,
+    "height": 240,
+    "widths": [
+      320
+    ]
+  },
+  "tattoo-42": {
+    "src": "/images/tattoos/tattoo-42.jpg",
+    "dir": "tattoos",
+    "width": 204,
+    "height": 253,
+    "widths": [
+      204
+    ]
+  },
+  "tattoo-43": {
+    "src": "/images/tattoos/tattoo-43.jpg",
+    "dir": "tattoos",
+    "width": 640,
+    "height": 480,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "tattoo-44": {
+    "src": "/images/tattoos/tattoo-44.jpg",
+    "dir": "tattoos",
+    "width": 459,
+    "height": 640,
+    "widths": [
+      459
+    ]
+  },
+  "tattoo-45": {
+    "src": "/images/tattoos/tattoo-45.jpg",
+    "dir": "tattoos",
+    "width": 640,
+    "height": 640,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "tattoo-46": {
+    "src": "/images/tattoos/tattoo-46.jpg",
+    "dir": "tattoos",
+    "width": 442,
+    "height": 590,
+    "widths": [
+      442
+    ]
+  },
+  "tattoo-47": {
+    "src": "/images/tattoos/tattoo-47.jpg",
+    "dir": "tattoos",
+    "width": 768,
+    "height": 960,
+    "widths": [
+      480,
+      720,
+      768
+    ]
+  },
+  "tattoo-48": {
+    "src": "/images/tattoos/tattoo-48.jpg",
+    "dir": "tattoos",
+    "width": 960,
+    "height": 960,
+    "widths": [
+      480,
+      720,
+      960
+    ]
+  },
+  "piercing-01": {
+    "src": "/images/piercings/piercing-01.jpg",
+    "dir": "piercings",
+    "width": 517,
+    "height": 480,
+    "widths": [
+      480,
+      517
+    ]
+  },
+  "piercing-02": {
+    "src": "/images/piercings/piercing-02.jpg",
+    "dir": "piercings",
+    "width": 526,
+    "height": 394,
+    "widths": [
+      480,
+      526
+    ]
+  },
+  "piercing-03": {
+    "src": "/images/piercings/piercing-03.jpg",
+    "dir": "piercings",
+    "width": 480,
+    "height": 640,
+    "widths": [
+      480
+    ]
+  },
+  "piercing-04": {
+    "src": "/images/piercings/piercing-04.jpg",
+    "dir": "piercings",
+    "width": 458,
+    "height": 640,
+    "widths": [
+      458
+    ]
+  },
+  "piercing-05": {
+    "src": "/images/piercings/piercing-05.jpg",
+    "dir": "piercings",
+    "width": 320,
+    "height": 240,
+    "widths": [
+      320
+    ]
+  },
+  "piercing-06": {
+    "src": "/images/piercings/piercing-06.jpg",
+    "dir": "piercings",
+    "width": 480,
+    "height": 640,
+    "widths": [
+      480
+    ]
+  },
+  "piercing-07": {
+    "src": "/images/piercings/piercing-07.jpg",
+    "dir": "piercings",
+    "width": 320,
+    "height": 308,
+    "widths": [
+      320
+    ]
+  },
+  "piercing-08": {
+    "src": "/images/piercings/piercing-08.jpg",
+    "dir": "piercings",
+    "width": 282,
+    "height": 640,
+    "widths": [
+      282
+    ]
+  },
+  "piercing-09": {
+    "src": "/images/piercings/piercing-09.jpg",
+    "dir": "piercings",
+    "width": 320,
+    "height": 320,
+    "widths": [
+      320
+    ]
+  },
+  "piercing-10": {
+    "src": "/images/piercings/piercing-10.jpg",
+    "dir": "piercings",
+    "width": 640,
+    "height": 480,
+    "widths": [
+      480,
+      640
+    ]
+  },
+  "piercing-11": {
+    "src": "/images/piercings/piercing-11.jpg",
+    "dir": "piercings",
+    "width": 480,
+    "height": 640,
+    "widths": [
+      480
+    ]
+  },
+  "piercing-12": {
+    "src": "/images/piercings/piercing-12.jpg",
+    "dir": "piercings",
+    "width": 362,
+    "height": 640,
+    "widths": [
+      362
+    ]
+  }
+}
