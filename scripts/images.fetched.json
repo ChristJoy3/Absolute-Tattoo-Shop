@@ -1,0 +1,365 @@
+{
+  "manifest": [
+    {
+      "name": "tattoo-01",
+      "dir": "tattoos",
+      "origId": 1,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-02",
+      "dir": "tattoos",
+      "origId": 4,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-03",
+      "dir": "tattoos",
+      "origId": 5,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-04",
+      "dir": "tattoos",
+      "origId": 6,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-05",
+      "dir": "tattoos",
+      "origId": 7,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-06",
+      "dir": "tattoos",
+      "origId": 9,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-07",
+      "dir": "tattoos",
+      "origId": 11,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-08",
+      "dir": "tattoos",
+      "origId": 20,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-09",
+      "dir": "tattoos",
+      "origId": 22,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-10",
+      "dir": "tattoos",
+      "origId": 23,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-11",
+      "dir": "tattoos",
+      "origId": 24,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-12",
+      "dir": "tattoos",
+      "origId": 26,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-13",
+      "dir": "tattoos",
+      "origId": 27,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-14",
+      "dir": "tattoos",
+      "origId": 28,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-15",
+      "dir": "tattoos",
+      "origId": 30,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-16",
+      "dir": "tattoos",
+      "origId": 33,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-17",
+      "dir": "tattoos",
+      "origId": 35,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-18",
+      "dir": "tattoos",
+      "origId": 36,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-19",
+      "dir": "tattoos",
+      "origId": 90,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-20",
+      "dir": "tattoos",
+      "origId": 91,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-21",
+      "dir": "tattoos",
+      "origId": 92,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-22",
+      "dir": "tattoos",
+      "origId": 93,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-23",
+      "dir": "tattoos",
+      "origId": 94,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-24",
+      "dir": "tattoos",
+      "origId": 95,
+      "source": "/Tattoos/"
+    },
+    {
+      "name": "tattoo-25",
+      "dir": "tattoos",
+      "origId": 42,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-26",
+      "dir": "tattoos",
+      "origId": 40,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-27",
+      "dir": "tattoos",
+      "origId": 39,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-28",
+      "dir": "tattoos",
+      "origId": 48,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-29",
+      "dir": "tattoos",
+      "origId": 49,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-30",
+      "dir": "tattoos",
+      "origId": 54,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-31",
+      "dir": "tattoos",
+      "origId": 55,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-32",
+      "dir": "tattoos",
+      "origId": 56,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-33",
+      "dir": "tattoos",
+      "origId": 58,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-34",
+      "dir": "tattoos",
+      "origId": 59,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-35",
+      "dir": "tattoos",
+      "origId": 64,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-36",
+      "dir": "tattoos",
+      "origId": 66,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-37",
+      "dir": "tattoos",
+      "origId": 68,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-38",
+      "dir": "tattoos",
+      "origId": 69,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-39",
+      "dir": "tattoos",
+      "origId": 71,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-40",
+      "dir": "tattoos",
+      "origId": 72,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-41",
+      "dir": "tattoos",
+      "origId": 73,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-42",
+      "dir": "tattoos",
+      "origId": 80,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-43",
+      "dir": "tattoos",
+      "origId": 83,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-44",
+      "dir": "tattoos",
+      "origId": 84,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-45",
+      "dir": "tattoos",
+      "origId": 85,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-46",
+      "dir": "tattoos",
+      "origId": 87,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-47",
+      "dir": "tattoos",
+      "origId": 88,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "tattoo-48",
+      "dir": "tattoos",
+      "origId": 89,
+      "source": "/More_Tattoos/"
+    },
+    {
+      "name": "piercing-01",
+      "dir": "piercings",
+      "origId": 60,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-02",
+      "dir": "piercings",
+      "origId": 61,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-03",
+      "dir": "piercings",
+      "origId": 62,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-04",
+      "dir": "piercings",
+      "origId": 63,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-05",
+      "dir": "piercings",
+      "origId": 70,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-06",
+      "dir": "piercings",
+      "origId": 74,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-07",
+      "dir": "piercings",
+      "origId": 75,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-08",
+      "dir": "piercings",
+      "origId": 77,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-09",
+      "dir": "piercings",
+      "origId": 82,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-10",
+      "dir": "piercings",
+      "origId": 96,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-11",
+      "dir": "piercings",
+      "origId": 97,
+      "source": "/Piercings/"
+    },
+    {
+      "name": "piercing-12",
+      "dir": "piercings",
+      "origId": 98,
+      "source": "/Piercings/"
+    }
+  ],
+  "failures": []
+}
